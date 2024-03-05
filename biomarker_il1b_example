@@ -1,0 +1,122 @@
+[
+  {
+    "biomarker_id": "AA0524",
+    "biomarker_component": [
+      {
+        "biomarker": "increased IL1B level",
+        "assessed_biomarker_entity": {
+          "recommended_name": "Interleukin-1 beta protein",
+          "synonyms": [
+            {
+              "synonym": "Catabolin"
+            },
+            {
+              "synonym": "IL1B"
+            },
+            {
+              "synonym": "IL1F2"
+            }
+          ]
+        },
+        "assessed_biomarker_entity_id": "UPKB:P01584",
+        "assessed_entity_type": "protein",
+        "specimen": [
+          {
+            "name": "blood",
+            "specimen_id": "UBERON:0000178",
+            "name_space": "UBERON",
+            "url": "http://purl.obolibrary.org/obo/UBERON_0000178",
+            "loinc_code": "13629-1"
+          }
+        ],
+        "evidence_source": [
+          {
+            "evidence_id": "32511562",
+            "database": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32511562/",
+            "evidence_list": [
+              {
+                "evidence": "COVID-19 is associated with high levels of IL-6, TNF-a, IL-1b, and CXCL8/IL-8."
+              }
+            ],
+            "tags": [
+              {
+                "tag": "biomarker"
+              },
+              {
+                "tag": "specimen:UBERON:0000178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "best_biomarker_role": "prognostic",
+    "condition": {
+      "condition_id": "DOID:0080600",
+      "recommended_name": {
+        "condition_id": "DOID:0080600",
+        "name": "COVID-19",
+        "description": "A Coronavirus infectious disease that is characterized by fever, cough and shortness of breath and that has_material_basis_in SARS-CoV-2.",
+        "resource": "Disease Ontology",
+        "url": "http://disease-ontology.org/term/DOID:0080600"
+      },
+      "synonyms": [
+        {
+          "synonym_id": "DOID:10283",
+          "name": "2019 Novel Coronavirus",
+          "resource": "Disease Ontology",
+          "url": "http://disease-ontology.org/term/DOID:0080600"
+        },
+        {
+          "synonym_id": "DOID:10283",
+          "name": "SARS-CoV-2 infection",
+          "resource": "Disease Ontology",
+          "url": "http://disease-ontology.org/term/DOID:0080600"
+        }
+      ]
+    },
+    "evidence_source": [
+      {
+        "evidence_id": "32511562",
+        "database": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32511562/",
+        "evidence_list": [
+          {
+            "evidence": "COVID-19 is associated with high levels of IL-6, TNF-a, IL-1b, and CXCL8/IL-8."
+          }
+        ],
+        "tags": [
+          {
+            "tag": "biomarker:0"
+          },
+          {
+            "tag": "specimen:UBERON:0000178:0"
+          }
+        ]
+      }
+    ],
+    "citation": [
+      {
+        "citation_title": "An inflammatory cytokine signature helps predict COVID-19 severity and death",
+        "journal": "MedRxiv",
+        "authors": "Del Valle DM, Kim-Schulze S, Hsin-Hui H, Beckmann ND, Nirenberg S, Wang B, Lavin Y, Swartz T, Madduri D, Stock A, Marron T, Xie H, Patel MK, van Oekelen O, Rahman A, Kovatch P, Aberg J, Schadt E, Jagannath S, Mazumdar M, Charney A, Firpo-Betancourt A, Mendu DR, Jhang J, Reich D, Sigel K, Cordon-Cardo C, Feldmann M, Parekh S, Merad M, Gnjatic S.",
+        "date": "May 6, 2020",
+        "reference": [
+          {
+            "reference_id": "32511562",
+            "type": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32511562/"
+          }
+        ],
+        "evidence_source": [
+          {
+            "evidence_id": "32511562",
+            "database": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32511562/"
+          }
+        ]
+      }
+    ]
+  }
+]
