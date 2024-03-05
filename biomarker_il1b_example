@@ -51,7 +51,11 @@
         ]
       }
     ],
-    "best_biomarker_role": "prognostic",
+    "best_biomarker_role": [
+      {
+        "role": "prognostic"
+      }
+      ],
     "condition": {
       "condition_id": "DOID:0080600",
       "recommended_name": {
