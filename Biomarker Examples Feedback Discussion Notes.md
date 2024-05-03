@@ -3,7 +3,8 @@
 ### 05/01/2024
 
 
-A discussion with Professor Darren Natale, ontology expert and collaborator, was held on 05/01/2024 to obtain feedback on the curated biomarker examples.
+A discussion with Professor Darren Natale, ontology expert and collaborator, was held on 05/01/2024 to obtain feedback on the curated biomarker examples. The examples can be found here: [Curated Biomarker Examples](https://docs.google.com/spreadsheets/d/1vZ68E8K5j0_ipmV4JpRd8YhTL6ib04NjCLT7lCTu4OM/edit?usp=sharing)
+
 Professor Natale annotated specific cells within the dataset using distinct colors in preparation for further discussion. The bullet points below address the main points of the discussion.
 
 -	To start, green colored cells that contained the physiologic biomarkers dilated pupil and increased jaw tremor, were added to the ontology under the category of bodily movement. Other examples like abnormal gait and constricted pupil would also fit under this new category.
